@@ -22,6 +22,8 @@ if os.environ["TM_SOFT_TABS"] == 'NO':
 else:
     opts.indent_size = int(os.environ["TM_TAB_SIZE"])
 
+opts.e4x = True
+
 print jsbeautifier.beautify_file('-', opts)
 </string>
 	<key>input</key>
