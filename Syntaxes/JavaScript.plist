@@ -308,7 +308,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?&lt;!\.|\$)\b(async|await|get|set)\b(?!\$)</string>
+			<string>(?&lt;!\.|\$)\b(async|await|get|set|static)\b(?!\$)</string>
 			<key>name</key>
 			<string>storage.modifier.js</string>
 		</dict>
@@ -484,7 +484,7 @@
 			<key>comment</key>
 			<string>Keywords reserved for future use in strict mode but now are unused.</string>
 			<key>match</key>
-			<string>(?&lt;!\.|\$)\b(implements|interface|package|private|protected|public|static)\b(?!\$)</string>
+			<string>(?&lt;!\.|\$)\b(implements|interface|package|private|protected|public)\b(?!\$)</string>
 			<key>name</key>
 			<string>invalid.deprecated.js</string>
 		</dict>
