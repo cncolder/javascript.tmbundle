@@ -265,13 +265,13 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?&lt;!\.|\$)\b(let|var)\b(?!\$)</string>
+			<string>(?&lt;!\.|\$)\b(const|let|var)\b(?!\$)</string>
 			<key>name</key>
 			<string>storage.type.js</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?&lt;!\.|\$)\b(get|set)\b(?!\$)</string>
+			<string>(?&lt;!\.|\$)\b(async|await|get|set)\b(?!\$)</string>
 			<key>name</key>
 			<string>storage.modifier.js</string>
 		</dict>
@@ -283,7 +283,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?&lt;!\.|\$)\b(delete|in|instanceof|new|typeof|void|with)\b(?!\$)</string>
+			<string>(?&lt;!\.|\$)\b(delete|class|export|extends|import|in|instanceof|new|typeof|void|with)\b(?!\$)</string>
 			<key>name</key>
 			<string>keyword.operator.js</string>
 		</dict>
@@ -439,7 +439,7 @@
 			<key>comment</key>
 			<string>Keywords reserved for future use but now are unused.</string>
 			<key>match</key>
-			<string>(?&lt;!\.|\$)\b(class|const|enum|export|extends|import|super)\b(?!\$)</string>
+			<string>(?&lt;!\.|\$)\b(enum)\b(?!\$)</string>
 			<key>name</key>
 			<string>invalid.illegal.js</string>
 		</dict>
@@ -459,7 +459,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?&lt;!\.|\$)\b(this)\b(?!\$)</string>
+			<string>(?&lt;!\.|\$)\b(super|this)\b(?!\$)</string>
 			<key>name</key>
 			<string>variable.language.js</string>
 		</dict>
