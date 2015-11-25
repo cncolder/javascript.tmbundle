@@ -128,7 +128,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b0[xX]\h+\b</string>
+			<string>\b0[xXbo]\h+\b</string>
 			<key>name</key>
 			<string>constant.numeric.hex.js</string>
 		</dict>
